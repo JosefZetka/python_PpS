@@ -1,5 +1,5 @@
 import pandas as pd
-from zaznam import Zaznam
+#from zaznam import Zaznam
 from decimal import Decimal
 
 kotel = pd.read_csv('KOTEL PP.LST',engine='python', delimiter=r"\t",   header =[0],skiprows=None, index_col = [0,1])
