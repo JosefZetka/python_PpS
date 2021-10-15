@@ -51,4 +51,5 @@ def zkratka(index_veliciny):
                }
         return switcher.get(index_veliciny)
 def params_for_unit(index_veliciny):
+       #print(f'kotelpplst = {kotelpplst }')
        return kotelpplst[zkratka(index_veliciny)]
